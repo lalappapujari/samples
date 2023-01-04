@@ -16,6 +16,7 @@ public class Testcase3 extends StepGroup {
 		s.Serachtextbox(pdata.getPropertydata("coursename"));
 		s.Clicknonsearch();
 	  SeleniumPage st=  new SeleniumPage(driver);
+	 // driverutilities.switchTabs(driver);
 	  st.corejavaselenium(driver);
 		Wishlist w= new Wishlist(driver);
 		driverutilities.switchframe(driver);
